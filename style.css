@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.logo,
+.logo_name {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 325px;
+}
+
+.logo_name {
+    width: 250px;
+}
+
+.searchbar,
+.search_icon,
+.seach_input {
+    display: flex;
+    align-items: center;
+}
+
+.searchbar {
+    justify-content: space-evenly;
+}
+
+.seach_input {
+    width: 400px;
+    height: 40px;
+    border-right: 1px solid #07102f20;
+}
+
+.seach_input input {
+    padding: 0 10px;
+    width: 350px;
+    border-style: none;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #8695A0;
+}
+
+.seach_input input[type="text"] {
+    font-size: 14px;
+}
+
+.seach_input input:focus {
+    outline: none;
+}
+
+.join_class {
+    margin: 0 10px;
+}
+
+.join_class button {
+    border-style: none;
+    width: 157px;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+    border-radius: 4px;
+    background-color: #3354FF;
+}
+
+.join_class button:focus {
+    border-style: none;
+}
+
+.toolbar,
+.tool_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tool_content {
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: #3354FF;
+    border-radius: 50%;
+}
+
+.profile {
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+}
+
+.setting {
+    color: #3354FF;
+    font-size: 20px;
+}
+
+.teacher_content {
+    margin: 10px 0;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 459px 936px;
+    grid-template-rows: 275px auto;
+    grid-gap: 16px;
+    justify-content: center;
+    grid-auto-rows: 150px;
+    background: #E5E5E5;
+}
+
+.teacher_info {
+    padding: 0 10px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 25px -10px rgba(182, 194, 240, 0.54);
+}
+
+.welcome {
+    width: 459px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    font-size: 20px;
+}
+
+.teacher_information {
+    display: flex;
+    justify-content: space-around;
+}
+
+.techer_img {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 0px 8px 22.5px -7.5px rgba(2, 5, 132, 0.2);
+}
+
+.techer_img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.teacher_intro {
+    padding: 0 10px;
+    width: 301px;
+}
+
+.teacher_name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #696969;
+}
+
+.teacher_intro p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #696969;
+}
+
+.teacher_bottombox {
+    margin: 29px 0;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacher_bottombox .bottombox1 {
+    width: 74px;
+    height: 45px;
+    text-align: center;
+}
+
+.bottombox1 .number {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.bottombox1 p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+}
+
+.bottombox1:nth-child(even)>.number,
+.bottombox1:nth-child(even)>p {
+    color: #3354FF;
+}
+
+.session_info {
+    display: flex;
+}
+
+.session1 {
+    border-radius: 5px;
+    width: 936px;
+    height: 275px;
+    background-color: white;
+}
+
+.session1 .session_header {
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    height: 50px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #3683f0;
+    color: white;
+}
+
+.session_header i {
+    margin: 0 13px;
+    font-size: 30px;
+}
+
+.session_header .session_headername {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.99);
+    letter-spacing: 0.1em;
+}
+
+.session_body {
+    margin: 20px 10px 10px 56px;
+    height: 225px;
+    border-radius: 5px;
+}
+
+.session_bodyContent {
+    font-family: Poppins;
+    color: #3683F0;
+    width: 457px;
+    height: 75px;
+    font-style: normal;
+    font-size: 23px;
+    letter-spacing: 0.1em;
+}
+
+.session_bodyContent span {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.session_body p {
+    margin: 5px 0;
+    font-family: Poppins;
+}
+
+.session_now,
+.session_edit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.session_now>button {
+    width: 284px;
+    height: 59px;
+    background-color: #3354FF;
+    border-style: none;
+    font-family: Poppins;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: white;
+    border-radius: 5px;
+}
+
+.session_edit {
+    width: 360px;
+}
+
+.session_edit .edit,
+.session_edit .edit_view {
+    height: 35px;
+    font-family: Poppins;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #000000;
+}
+
+.session_edit .edit {
+    width: 140px;
+}
+
+.session_edit .edit_view {
+    width: 210px;
+}
+
+.reaction {
+    height: 620px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.reaction .reaction_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reaction_header .reaction_gotGiven {
+    width: 50%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    color: #C4C4C4;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.reaction_header .reaction_gotGiven:nth-child(1) {
+    color: #673CDF;
+    border-right: 1px solid #EEEEEE;
+}
+
+.last_days {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: auto;
+    height: 20px;
+    font-family: Poppins;
+    color: #979797;
+}
+
+.last_days span {
+    margin: 0px 5px;
+}
+
+.content_bar {
+    margin: 40px 0;
+    padding: 0 20px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.value {
+    font-family: Poppins;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: #5855D640;
+    text-align: center;
+}
+
+.bar {
+    display: block;
+    max-width: 300px;
+    height: 45px;
+    background-color: #5855D640;
+}
+
+.bar .contantbar_name {
+    position: absolute;
+    font-family: Poppins;
+    color: #65708D;
+    transform: translate(0, -25px);
+}
+
+.session_details {
+    padding: 0 20px 0 0;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.session_header {
+    display: flex;
+    align-items: center;
+
+}
+
+.session_header1 {
+    display: flex;
+    align-items: center;
+}
+
+.details {
+    color: #9592A6;
+}
+
+.class_schedule {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.class_schedule td,
+.class_schedule th {
+    margin: 10px;
+    padding: 4px 8px;
+    text-align: center;
+}
+
+.class_schedule tr {
+    font-size: 12px;
+    font-family: Poppins;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.class_schedule th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-family: Poppins;
+    color: rgb(0, 0, 0);
+}
+
+.class_schedule tr td:nth-child(1) {
+    width: 68px;
+    height: 57px;
+    font-size: 11px;
+}
+
+.class_schedule tr td:nth-child(1) span {
+    height: 57px;
+    height: 68px;
+    font-size: 15px;
+    color: #5855D6;
+}
+
+.class_schedule tr td:nth-child(2) {
+    width: 30%;
+    height: 57px;
+    font-size: 11px;
+    letter-spacing: 0.02em;
+
+}
+
+.class_schedule tr td:nth-child(2) span {
+    font-size: 14px;
+}
+
+.class_schedule tr td:nth-child(3) {
+    width: 135px;
+    height: 28px;
+    font-size: 11px;
+    letter-spacing: 0.02em;
+    background-color: #E7E7FF;
+    border-radius: 25px;
+}
+
+.class_schedule tr td:nth-child(3) i {
+    color: #673CDF;
+}
+
+.class_schedule tr td:nth-child(4) {
+    width: 135px;
+    height: 28px;
+    font-size: 11px;
+    letter-spacing: 0.02em;
+    background-color: #E7E7FF;
+    border-radius: 25px;
+}
+
+.class_schedule tr td:nth-child(5) {
+    width: 50px;
+    height: 50px;
+    font-size: 11px;
+    letter-spacing: 0.02em;
+    background-color: #E7E7FF;
+    border-radius: 25px;
+}
+.allsession{
+    margin: 20PX 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px; 
+    font-family: Poppins;  
+    letter-spacing: 0.1em; 
+    color: rgba(88, 85, 214, 0.8);
+}
